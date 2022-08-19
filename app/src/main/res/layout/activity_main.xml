@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#03A9F4"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:src="@drawable/bariul"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:src="@drawable/bariuldiu"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    />
+            </LinearLayout>
+
+            <TextView
+                wrap_content
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello,This is Md. Bariul Munshi. I am here to write about myselft somethin. I am going to laungh my software company in very early Stage then I  have to do this"
+                android:textColor="#00BCD4"
+                android:textSize="30sp"
+                />
+            <TextView
+                wrap_content
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello,This is Md. Bariul Munshi. I am here to write about myselft somethin. I am going to laungh my software company in very early Stage then I  have to do this"
+                android:textColor="#E91E63"
+                android:textSize="30sp"
+                />
+            <TextView
+                wrap_content
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello,This is Md. Bariul Munshi. I am here to write about myselft somethin. I am going to laungh my software company in very early Stage then I  have to do this"
+                android:textColor="#00BCD4"
+                android:textSize="30sp"
+                />
+            <TextView
+                wrap_content
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello,This is Md. Bariul Munshi. I am here to write about myselft somethin. I am going to laungh my software company in very early Stage then I  have to do this"
+                android:textColor="#E91E63"
+                android:textSize="30sp"
+                />
+            <TextView
+                wrap_content
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello,This is Md. Bariul Munshi. I am here to write about myselft somethin. I am going to laungh my software company in very early Stage then I  have to do this"
+                android:textColor="#00BCD4"
+                android:textSize="30sp"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
